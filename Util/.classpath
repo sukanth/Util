@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/Users/sukanthgunda/Documents/useful jars/Java_iText_PDF/lib/itextpdf-5.2.1.jar"/>
+	<classpathentry kind="lib" path="/Users/sukanthgunda/Documents/useful jars/jfreechart-1.0.17/jfreechart-1.0.17-demo.jar"/>
+	<classpathentry kind="lib" path="/Users/sukanthgunda/Documents/useful jars/jsch.jar"/>
+	<classpathentry kind="lib" path="/Users/sukanthgunda/Documents/useful jars/javamail-1.4.7/mail.jar"/>
+	<classpathentry kind="lib" path="/Users/sukanthgunda/Documents/useful jars/commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="/Users/sukanthgunda/Documents/useful jars/mysql-connector-java-5.1.26-bin.jar"/>
+	<classpathentry kind="lib" path="lib/javax.activation-3.0-preview.jar"/>
+	<classpathentry kind="lib" path="lib/opencsv-2.3.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
