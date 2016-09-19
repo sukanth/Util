@@ -1,3 +1,4 @@
+package Practice;
 import javax.swing.*;
 
 public class Simple {
