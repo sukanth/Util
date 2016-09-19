@@ -24,8 +24,7 @@ public class GeneratePDF {
 	public static void main(String[] args) throws DocumentException,
 			MalformedURLException, IOException {
 
-		OutputStream file = new FileOutputStream(
-				new File("Expense_invoice.pdf"));
+		OutputStream file = new FileOutputStream(new File("Expense_invoice.pdf"));
 
 		Document document = new Document();
 		PdfWriter.getInstance(document, file);
