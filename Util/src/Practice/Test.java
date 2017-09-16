@@ -46,13 +46,13 @@ public class Test {
 	}*/
 	
 	/*findDuplicateCharactersInString("whenthereisawillthereisaaway");*/
-	  boolean a = false;
+	/*  boolean a = false;
 	  if(a=true){
 	      System.out.println("hello");
 	  }else{
 	      System.out.println("goodbye");
 	  }
-    }
+    }*/
 
    /* private static void findDuplicateCharactersInString(String string) {
 	Map<Character, Integer> map = new HashMap<Character, Integer>();
@@ -73,6 +73,19 @@ public class Test {
 	}
 	
     }*/
-
+    	System.out.println(digitSum(867));
+    	
+    }
+    public static int digitSum(int n) {
+	    int sum=0;
+	   int count = 0;
+	  while (n > 0) {
+		  count++;
+	            sum = sum + n % 10;
+	            n = n / 10;
+	        }
+	  System.out.println(count);
+	    return sum;
+	}
     
 }

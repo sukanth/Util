@@ -18,6 +18,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Properties;
  
 public class DBComparisionTool {
@@ -72,8 +73,8 @@ try
                 {
                      missingTables.remove(qaTables.getString(1));                  
                 }
-               
-                for(String missinTables : missingTables)
+              
+               for(String missinTables : missingTables)
                 {
                                 System.out.println("Missing tables in GrnHills(QA) over Dev(Support) are as follows");
                                 System.out.println("--------------------------------------------------------------");
@@ -102,6 +103,8 @@ finally
                 }
 }
 }
+
+@eunwith("^testing jhkhkjdf$")
  
 public static Connection getDBConnection(String driver,String dataBaseURL,String username,String password) throws ClassNotFoundException, SQLException
 {
