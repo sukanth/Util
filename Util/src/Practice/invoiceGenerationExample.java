@@ -1,4 +1,4 @@
-package Practice;
+/*package Practice;
 
 import java.awt.Graphics2D;
 import java.awt.geom.Rectangle2D;
@@ -39,9 +39,9 @@ import com.mysql.jdbc.Statement;
 
 public class invoiceGenerationExample {
 
-	/**
+	*//**
 	 * @param args
-	 */
+	 *//*
 	public static Connection con = null;
 	public static Statement st = null;
 	public static ResultSet rs = null;
@@ -198,3 +198,4 @@ public class invoiceGenerationExample {
 	}
 
 }
+*/

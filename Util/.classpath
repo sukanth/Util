@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="/Users/sukanthgunda/Documents/useful jars/Java_iText_PDF/lib/itextpdf-5.2.1.jar"/>
-	<classpathentry kind="lib" path="/Users/sukanthgunda/Documents/useful jars/jfreechart-1.0.17/jfreechart-1.0.17-demo.jar"/>
-	<classpathentry kind="lib" path="/Users/sukanthgunda/Documents/useful jars/jsch.jar"/>
-	<classpathentry kind="lib" path="/Users/sukanthgunda/Documents/useful jars/javamail-1.4.7/mail.jar"/>
-	<classpathentry kind="lib" path="/Users/sukanthgunda/Documents/useful jars/commons-lang3-3.1.jar"/>
-	<classpathentry kind="lib" path="/Users/sukanthgunda/Documents/useful jars/mysql-connector-java-5.1.26-bin.jar"/>
 	<classpathentry kind="lib" path="lib/javax.activation-3.0-preview.jar"/>
 	<classpathentry kind="lib" path="lib/opencsv-2.3.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.launching.macosx.MacOSXType/Java SE 7 [1.7.0_71]"/>
+	<classpathentry kind="lib" path="lib/commons-lang3-3.6.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector.jar"/>
+	<classpathentry kind="lib" path="lib/mail.jar"/>
+	<classpathentry kind="lib" path="lib/jsch-0.1.42.jar"/>
+	<classpathentry kind="lib" path="lib/jfreechart.jar"/>
+	<classpathentry kind="lib" path="lib/itextpdf-5.0.6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
