@@ -11,11 +11,7 @@ import java.io.File;
 
 public class screenShotInJava {
 
-	/**
-	 * @param args
-	 * @throws Clone
-	 * 
-	 */
+
 	 public static void captureScreen(String fileName) throws Exception {
 	       
          Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
